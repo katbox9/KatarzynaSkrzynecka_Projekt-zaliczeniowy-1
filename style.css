@@ -1,0 +1,26 @@
+.nav {
+  background-color: #4e4e4e;
+  height: 50px;
+}
+.nav-container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 46px;
+}
+.header-container {
+  height: calc(100vh - 50px);
+  display: flex;
+}
+.landing-page-container {
+  background-image: url(/Tło\ sekcji.png);
+  background-size: cover;
+  background-position: center;
+}
