@@ -16,9 +16,9 @@
   align-content: center;
   gap: 46px;
 }
-.header-container {
+/* .header-container {
   height: 100vh;
-}
+} */
 .landing-page {
   height: calc(100vh - 50px);
   background-image: url(/Tło\ sekcji.png);
