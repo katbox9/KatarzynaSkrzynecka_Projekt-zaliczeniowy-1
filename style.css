@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+.header-contaoner {
+  font-family: "Times New Roman", Times, serif;
+}
 .nav {
   background-color: #4e4e4e;
   height: 50px;
@@ -29,4 +35,13 @@
 .landing-page-container {
   width: 960px;
   margin: 0 auto;
+}
+.offer-btn {
+  width: 164px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+  background: rgba(196, 196, 196, 0);
 }
