@@ -24,9 +24,14 @@ html {
   align-content: center;
   gap: 46px;
 }
-/* .header-container {
-  height: 100vh;
-} */
+.nav-item-btn {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-item-contact-btn {
+  cursor: not-allowed;
+}
+
 .landing-page {
   height: calc(100vh - 50px);
   background-image: url(/Tło\ sekcji.png);
@@ -76,4 +81,10 @@ html {
   font-size: 18px;
   text-decoration: none;
   color: #fff;
+}
+
+.offer-btn:hover {
+  background-color: #fff;
+  color: black;
+  transition: 1s, ease;
 }
