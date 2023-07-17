@@ -13,8 +13,11 @@ html {
   height: 50px;
 }
 .nav-container {
-  width: 960px;
   height: 100%;
+}
+.nav-container,
+.footer-wraper {
+  width: 960px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -139,24 +142,50 @@ html {
   border: solid 1px black;
   border-radius: 50%;
 }
+.specjalist-pic-Marek-item,
+.specjalist-pic-Piotr-item {
+  background-size: cover;
+}
 .specjalist-pic-Marek-item {
   background-image: url(/Marek-Nowak.png);
-  background-size: cover;
-  background-position: center;
 }
 .specjalist-pic-Piotr-item {
   background-image: url(/Piotr-Kowalski.png);
-  background-size: cover;
   order: 1;
 }
-
-.specjalist-text-item {
+.specialists-heading {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.specjalist-text-Marek,
+.specjalist-text-Piotr {
   width: 700px;
   font-size: 18px;
+}
+
+.specjalist-text-Piotr {
+  text-align: right;
 }
 
 .secondary-main-container {
   background-color: #405d78;
   height: 689px;
   color: white;
+}
+.secondary-main-heading {
+  color: #fff;
+}
+.offer-section {
+  display: grid;
+}
+.offer-item {
+  width: 198px;
+  height: 194px;
+  background: #f1f1f1;
+  color: #000;
+}
+
+.footer-container {
+  background-color: #4e4e4e;
+  height: 71px;
 }
