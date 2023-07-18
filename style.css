@@ -14,9 +14,6 @@ html {
 }
 .nav-container {
   height: 100%;
-}
-.nav-container,
-.footer-wraper {
   width: 960px;
   margin: 0 auto;
   display: flex;
@@ -174,18 +171,50 @@ html {
 }
 .secondary-main-heading {
   color: #fff;
+  padding-bottom: 82px;
 }
-.offer-section {
+.offer-container {
   display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 63px;
 }
 .offer-item {
   width: 198px;
   height: 194px;
   background: #f1f1f1;
   color: #000;
+  text-align: center;
 }
 
 .footer-container {
   background-color: #4e4e4e;
+}
+.footer-wraper {
+  width: 960px;
   height: 71px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-text {
+  color: white;
+}
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 18px;
+}
+.fb-icon {
+  width: 31px;
+  height: 31px;
+}
+.icons-btn {
+  display: flex;
+  justify-content: center;
+  width: 31px;
+  height: 31px;
+  cursor: pointer;
+  color: white;
 }
