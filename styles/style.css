@@ -187,7 +187,7 @@ html {
   align-items: center;
 }
 .offer-item :nth-child(1) {
-  position: relative;
+  position: absolute;
   text-align: center;
 }
 .red-dot {
@@ -196,9 +196,9 @@ html {
   border: solid 1px #e07a64;
   border-radius: 50%;
   background-color: #e07a64;
-  position: absolute;
-  /* top: -1px;
-  left: -1px; */
+  position: relative;
+  top: -95px;
+  left: -145px;
   z-index: 100;
 }
 
