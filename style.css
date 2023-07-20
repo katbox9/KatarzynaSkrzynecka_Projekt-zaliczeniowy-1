@@ -176,7 +176,10 @@ html {
 .offer-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
   gap: 63px;
+  position: relative;
 }
 .offer-item {
   width: 198px;
@@ -184,8 +187,19 @@ html {
   background: #f1f1f1;
   color: #000;
   text-align: center;
+  font-size: 24px;
 }
-
+.red-dot {
+  width: 21px;
+  height: 21px;
+  border: solid 1px #e07a64;
+  border-radius: 50%;
+  background-color: #e07a64;
+  position: absolute;
+  top: -10px;
+  left: 110px;
+  z-index: 100;
+}
 .footer-container {
   background-color: #4e4e4e;
 }
@@ -216,5 +230,4 @@ html {
   width: 31px;
   height: 31px;
   cursor: pointer;
-  color: white;
 }
