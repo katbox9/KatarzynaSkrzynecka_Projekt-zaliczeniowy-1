@@ -37,7 +37,7 @@ html {
 
 .landing-page {
   height: calc(100vh - 50px);
-  background-image: url(/section-background.png);
+  background-image: url(/assets/section-background.png);
   background-size: cover;
   background-position: center;
 }
@@ -141,10 +141,10 @@ html {
   background-size: cover;
 }
 .specjalist-pic-Marek-item {
-  background-image: url(/Marek-Nowak.png);
+  background-image: url(/assets/Marek-Nowak.png);
 }
 .specjalist-pic-Piotr-item {
-  background-image: url(/Piotr-Kowalski.png);
+  background-image: url(/assets/Piotr-Kowalski.png);
   order: 1;
 }
 .specialists-heading {
