@@ -41,7 +41,6 @@ html {
   background-size: cover;
   background-position: center;
 }
-
 .landing-page-container {
   width: 960px;
   height: 100%;
@@ -123,7 +122,6 @@ html {
   justify-content: center;
   align-items: center;
 }
-
 .first-specjalist,
 .second-specjalist {
   display: flex;
@@ -131,7 +129,6 @@ html {
   align-items: center;
   width: 100%;
 }
-
 .specjalist-pic-Piotr-item,
 .specjalist-pic-Marek-item {
   width: 197px;
@@ -159,7 +156,6 @@ html {
   width: 700px;
   font-size: 18px;
 }
-
 .specjalist-text-Piotr {
   text-align: right;
 }
@@ -186,8 +182,10 @@ html {
   height: 194px;
   background: #f1f1f1;
   color: #000;
-  text-align: center;
   font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .red-dot {
   width: 21px;
@@ -200,6 +198,7 @@ html {
   left: 110px;
   z-index: 100;
 }
+
 .footer-container {
   background-color: #4e4e4e;
 }
