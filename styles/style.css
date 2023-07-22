@@ -220,14 +220,7 @@ html {
   align-content: center;
   gap: 18px;
 }
-.fb-icon {
-  width: 31px;
-  height: 31px;
-}
 .icons-btn {
-  display: flex;
-  justify-content: center;
-  width: 31px;
-  height: 31px;
   cursor: pointer;
+  text-decoration: none;
 }
