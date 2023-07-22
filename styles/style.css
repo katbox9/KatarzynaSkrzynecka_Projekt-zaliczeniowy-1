@@ -32,23 +32,29 @@ html {
 .nav-item-contact-btn {
   cursor: not-allowed;
 }
-
+.shadow {
+  background-color: #000000d1;
+}
 .landing-page {
-  height: calc(100vh - 50px);
   background-image: url(/assets/section-background.png);
   background-size: cover;
   background-position: center;
 }
+.landing-page,
+shadow {
+  width: 100%;
+  height: calc(100vh - 50px);
+}
 .landing-page-container {
-  width: 960px;
-  height: 100%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 43px;
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: center;
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -175,29 +181,27 @@ html {
   gap: 63px;
 }
 .offer-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 198px;
   height: 194px;
   background: #f1f1f1;
   color: #000;
   font-size: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.offer-item :nth-child(1) {
-  position: absolute;
-  text-align: center;
 }
 .red-dot {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 100;
   width: 21px;
   height: 21px;
   border: solid 1px #e07a64;
   border-radius: 50%;
   background-color: #e07a64;
-  position: relative;
-  top: -95px;
-  left: -145px;
-  z-index: 100;
 }
 
 .footer-container {
