@@ -1,7 +1,7 @@
 # KatarzynaSkrzynecka_Projekt-zaliczeniowy-1
 The first final project for the Frontend Developer course.
 ## How it looks
-[The current look of the project.]([https://adres_linku](https://kat-skrzynecka-projekt-zaliczeniowy-1.netlify.app/)https://kat-skrzynecka-projekt-zaliczeniowy-1.netlify.app/)
+[The current look of the project.](https://kat-skrzynecka-projekt-zaliczeniowy-1.netlify.app/)
 
 
 ![Main page screenshot.](...)
