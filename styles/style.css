@@ -139,9 +139,6 @@ shadow {
   height: 197px;
   border: solid 1px black;
   border-radius: 50%;
-}
-.specjalist-pic-Marek-item,
-.specjalist-pic-Piotr-item {
   background-size: cover;
 }
 .specjalist-pic-Marek-item {
