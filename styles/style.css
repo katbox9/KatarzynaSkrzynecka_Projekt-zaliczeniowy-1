@@ -117,9 +117,9 @@ shadow {
 .specialists-container {
   display: flex;
   flex-direction: column;
-  gap: 100px;
   justify-content: center;
   align-items: center;
+  gap: 100px;
   width: 960px;
   height: 672px;
   margin: 0 auto;
