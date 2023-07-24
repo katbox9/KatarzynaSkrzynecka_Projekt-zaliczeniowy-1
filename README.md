@@ -4,9 +4,9 @@ The first final project for the Frontend Developer course.
 [The current look of the project.](https://kat-skrzynecka-projekt-zaliczeniowy-1.netlify.app/)
 
 
-![Main page screenshot 1](landing-page-screenshot.jpg)
-![Main page screenshot 2](specialists-screenshot.jpg)
-![Main page screenshot 3](offer-screenshot.jpg)
+![Main page screenshot 1](/assets/landing-page-screenshot.jpg)
+![Main page screenshot 2](/assets/specialists-screenshot.jpg)
+![Main page screenshot 3](/assets/offer-screenshot.jpg)
 
 
 ## Description
